@@ -254,6 +254,56 @@ td.hm-d{background:#fef2f2!important;color:#991b1b;font-weight:600}
 </table>
 </div>
 </div>
+<!-- Panel: 주요 이슈 -->
+<div class="panel">
+<div class="panel-header">주요 이슈</div>
+<div class="panel-body">
+<div class="issue-cards">
+
+<div class="issue-card issue-red" onclick="openModal('d3')">
+<div class="ic-title">▼ 더페이퍼랩 — 개인 평균 67.0% (전사 최저)</div>
+<div class="ic-body">
+목업제작파트 61.5% (5명 C등급) · 종이상담파트 72.5% (3명 C등급)<br>
+C1 매출성장 Cascading 하위 → 서비스 품질·인력 역량 집중 보강 필요
+</div>
+</div>
+
+<div class="issue-card issue-red" onclick="openModal('d2')">
+<div class="ic-title">▼ 리테일사업부 — 개인 평균 72.8% (C등급 14명/22명)</div>
+<div class="ic-body">
+오프라인매장팀 63.2% · 온라인사업팀 72.4% · 브랜드마케팅팀 78.0%<br>
+온·오프라인 채널 전환 과정 성과 미달 → 인력 재배치·역량 교육 검토
+</div>
+</div>
+
+<div class="issue-card issue-amber" onclick="openModal('d4')">
+<div class="ic-title">▲ SCM본부 — 팀KPI 품질·구매 운영지표 저조</div>
+<div class="ic-body">
+품질관리팀 팀KPI 75.9% (결품/반품률 65%, 재발률 58%) · 구매팀 팀KPI 76.1% (구매단가 56%)<br>
+단, 개인 달성률은 우수(104.8%, 98.0%) — C2 영업이익률 연계 프로세스 개선 시급
+</div>
+</div>
+
+<div class="issue-card issue-amber" onclick="openModal('team-sales2')">
+<div class="ic-title">▲ 국내영업2팀 — 개인 평균 77.4% (C등급 8명/14명)</div>
+<div class="ic-body">
+팀매출달성률(지방) 78%, 산업용지 점유율 67%, 신규거래처 67%<br>
+장수빈 과장 42%, 오승환 주임 42%, 이재훈 팀장 56% — 팀장 포함 저성과, 조직 진단 필요
+</div>
+</div>
+
+<div class="issue-card issue-green" onclick="openModal('team-greendev')">
+<div class="ic-title">● 성과 우수 — 기획파트 105.3%, 품질관리팀(개인) 104.8%</div>
+<div class="ic-body">
+제품개발팀: 친환경 매출 115%(A), FSC 인증 100%(A) — ESG 성장동력 확인<br>
+기획파트: 3명 전원 B+ 이상 — Best Practice 전파 활용
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
 
 <!-- Panel 2: 본부별 KPI 달성 히트맵 -->
 <div class="panel">
@@ -427,52 +477,7 @@ td.hm-d{background:#fef2f2!important;color:#991b1b;font-weight:600}
 <div style="border-left:1px solid #e2e8f0;padding-left:20px"><div class="sub">본부별 영업이익 기여</div>
 <div style="font-size:11px;color:#666;margin-top:4px" id="vdt-r-dept">영업48억 | 리테일7억 | 페이퍼랩8억 | SCM8억 | 경영지원8억</div>
 
-<div style="margin-top:20px;padding:16px;background:#fffdf7;border:1px solid #f0e6c0;border-radius:8px">
-<div style="font-size:14px;font-weight:700;color:#b8860b;margin-bottom:12px">주요 이슈</div>
 
-<div style="margin-bottom:12px">
-<div style="font-size:13px;font-weight:700;color:#c00">▼ 더페이퍼랩 본부 — 개인 평균 67.0% (전사 최저)</div>
-<div style="font-size:12px;color:#555;padding:4px 0 0 12px">
-목업제작파트 개인 평균 61.5% — 5명 C등급 (강도윤 팀장 45%, 고소정 주임 45%, 한유나 사원 42%)<br>
-종이상담파트 개인 평균 72.5% — 3명 C등급, 팀KPI 결품률·납기 이슈<br>
-<b>C1 매출성장 Cascading 하위 → 서비스 품질·인력 역량 집중 보강 필요</b>
-</div></div>
-
-<div style="margin-bottom:12px">
-<div style="font-size:13px;font-weight:700;color:#c00">▼ 리테일사업부 — 개인 평균 72.8% (C등급 14명/22명)</div>
-<div style="font-size:12px;color:#555;padding:4px 0 0 12px">
-오프라인매장팀 개인 평균 63.2% — 3명 C등급 (오나은 팀장 45%, 신시우 과장 49%)<br>
-온라인사업팀 개인 평균 72.4% — 6명 C등급 (고한결 사원 42%, 노태민 대리 43%)<br>
-브랜드마케팅팀 개인 평균 78.0% — 5명 C등급<br>
-<b>온·오프라인 채널 전환 과정에서 성과 미달 집중 → 인력 재배치·역량 교육 검토</b>
-</div></div>
-
-<div style="margin-bottom:12px">
-<div style="font-size:13px;font-weight:700;color:#e67e00">▲ SCM본부 — 팀KPI 품질·구매 운영지표 저조</div>
-<div style="font-size:12px;color:#555;padding:4px 0 0 12px">
-품질관리팀 팀KPI 평균 75.9% — 결품/반품률 65%, Quality Issue 재발률 58%, 자재불량률 64%<br>
-구매팀 팀KPI 평균 76.1% — 구매단가 절감액 56%, 자재불량률 60%, 재고자산 회전율 71%<br>
-(단, 개인 달성률은 품질관리팀 104.8%, 구매팀 98.0%로 우수 — 운영지표 개선이 핵심)<br>
-<b>C2 영업이익률 직접 영향 → 원가절감·품질 프로세스 개선 시급</b>
-</div></div>
-
-<div style="margin-bottom:12px">
-<div style="font-size:13px;font-weight:700;color:#e67e00">▲ 영업본부 국내영업2팀 — 개인 평균 77.4% (C등급 8명/14명)</div>
-<div style="font-size:12px;color:#555;padding:4px 0 0 12px">
-팀KPI: 팀매출달성률(지방) 78%, 산업용지 점유율 67%, 신규거래처 매출비중 67%<br>
-장수빈 과장 42%, 오승환 주임 42%, 노연서 대리 45%, 고유준 주임 45%, 이재훈 팀장 56%<br>
-<b>C1→영업→지방 Cascading 미달, 팀장 포함 저성과 — 조직 진단 필요</b>
-</div></div>
-
-<div>
-<div style="font-size:13px;font-weight:700;color:#2e7d32">● 성과 우수 — 기획파트 105.3%, 품질관리팀(개인) 104.8%, 구매팀(개인) 98.0%</div>
-<div style="font-size:12px;color:#555;padding:4px 0 0 12px">
-제품개발팀: 친환경 매출달성률 115%(A), FSC 인증 100%(A) — ESG 성장동력 확인<br>
-기획파트: 3명 전원 B등급 이상 — 전략 실행력 우수<br>
-<b>성과 우수 팀의 Best Practice 전파 → 저성과 팀 벤치마킹 활용</b>
-</div></div>
-
-</div>
 </div>
 </div>
 
